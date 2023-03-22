@@ -1,0 +1,91 @@
+/* VARIAVEIS DE CORES */
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secudaria: #00A676;
+    --cor-terciaria: #FFCB77;
+    --cor-quaternaria: #C4B7CB;
+    --cor-quitana: #EAE5EB;
+}
+
+body {
+    box-sizing: border-box;
+    background: var(--cor-secudaria);
+}
+
+/* TITULO DO SITE */
+
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: column;
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+.titulo__contesto {
+    font-size: 1.2rem;
+}
+
+/* MENU DO SITE */
+
+.menu__navegacao {
+    display: flex;
+    gap: 0.6rem;
+    padding: 0.6rem 2rem;
+    background: var(--cor-terciaria);
+}
+
+/* CONTEUDO DO SITE */
+
+main {
+    background: var(--cor-quitana);
+    height: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1.6rem;
+}
+
+.apresentacao {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.link__imagen {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.imagens__imagen {
+    width: 10rem;
+    height: 8rem;
+}
+
+.img__apresentacao {
+    width: 52rem;
+    height: 30rem;
+}
+
+/* RODAPE */
+
+.rodape {
+    padding: 1rem 1.6rem;
+    font-size: 1.4rem;
+}
+
+.link__site {
+    padding-top: 1rem;
+    color: var(--cor-quitana);
+}
+
+/* TELA DE CELULAR */
+
+@media (max-width: 576px) {
+    .img__apresentacao {
+        width: 29rem;
+        height: 19rem;
+    }
+}
