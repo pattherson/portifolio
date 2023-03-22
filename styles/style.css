@@ -83,10 +83,10 @@ main {
 
 /* TELA DE CELULAR */
 
-@media (max-width: 576px) {
+@media (max-width: 676px) {
     .img__apresentacao {
-        width: 29rem;
-        height: 19rem;
+        width: 95%;
+        height: 35%;
     }
 
     body li {
