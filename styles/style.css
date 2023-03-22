@@ -88,4 +88,13 @@ main {
         width: 29rem;
         height: 19rem;
     }
+
+    body li {
+        font-size: 1.8rem;
+        padding: 2%;
+    }
+
+    body p {
+        font-size: 1.4rem;
+    }
 }
